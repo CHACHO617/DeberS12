@@ -3,8 +3,11 @@ public class Main {
         System.out.println("***************");
         System.out.println("* JAVA PROJECT *");
         System.out.println("***************");
+
         Saludo saludo = new Saludo();
-        System.out.println(saludo.generarSaludo("Mundo"));
+        System.out.println(saludo.generarSaludo("Mundo", "es")); // Español
+        System.out.println(saludo.generarSaludo("World", "en")); // Inglés
+        System.out.println(saludo.generarSaludo("Mundo", "fr"));      // Francés
 
         // Crear instancia de la clase despedida
         Despedida despedida = new Despedida();
