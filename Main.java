@@ -3,7 +3,7 @@ public class Main {
         Saludo saludo = new Saludo();
         System.out.println(saludo.generarSaludo("Mundo"));
 
-        // Crear instancia de la clase Despedida
+        // Crear instancia de la clase despedida
         Despedida despedida = new Despedida();
         System.out.println(despedida.generarDespedida("Mundo"));
     }
